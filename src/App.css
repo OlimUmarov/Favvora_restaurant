@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+/*ul{*/
+/*    list-style-type: none;*/
+/*}*/
+/*.btn{*/
+/*    width: 70px;*/
+/*    color: aliceblue;*/
+/*    cursor: pointer;*/
+/*    padding: 10px 15px;*/
+/*    background-color: #1C62B9;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    transition: 0.2s ease-out;*/
+/*}*/
+/*.btn:hover{*/
+/*    background-color: #2377e3;*/
+/*}*/
+.icon{
+    background: url("./img/searchicon.png") no-repeat 7px ;
+    background-size: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app{
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-top: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.active{
+    background-color: #3b82f6;
+    color: aliceblue;
+    font-weight: 500;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.back-icon{
+    background: url("./img/back-icon.png") no-repeat 7px ;
+    background-size: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.remove-icon{
+    background: url("./img/trash-icon.png") no-repeat 4px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.liked{
+    background: url("./img/liked.svg") no-repeat ;
+    background-size: 20px;
+}
+.liked-dark{
+    background: url("./img/filled-like.svg") no-repeat ;
+    background-size: 20px;
 }
