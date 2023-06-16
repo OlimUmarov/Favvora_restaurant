@@ -7,7 +7,7 @@ import Model from "../components/Model";
 import Liked from "../components/Liked";
 
 function Home() {
-    const baseUrl = 'https://api.favvora-urgench.uz/site/menu/'
+    const baseUrl = ''
     const [menu,setMenu] = useState([])
     const [filteredDishes,setFilteredDishes] = useState([])
     const [favDishes,setFavDishes] = useState([])
